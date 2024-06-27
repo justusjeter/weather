@@ -1,0 +1,113 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #E6E6FA;
+    text-align: center;
+    padding: 20px;
+    color: #4B0082;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+#user-input {
+    margin-bottom: 20px;
+}
+
+#user-input label {
+    font-size: 1.5em;
+    color: #8A2BE2;
+}
+
+#user-input input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border-radius: 15px;
+    border: 2px solid #4B0082;
+    background-color: #D8BFD8;
+}
+
+#user-input button {
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #4B0082;
+    background-color: #9370DB;
+    color: white;
+}
+
+#weather-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+#weather-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: opacity 0.5s ease-in-out; /* fade-in effect */
+    opacity: 0; /* Start hidden */
+    color: #4B0082;
+}
+
+#weather-card.cold {
+    background-color: #ADD8E6; /* Light Blue */
+    color: #00008B; /* Dark Blue */
+}
+
+#weather-card.neutral {
+    background-color: #F5F5DC; /* Beige */
+    color: #8B4513; /* Saddle Brown */
+}
+
+#weather-card.warm {
+    background-color: #FFA07A; /* Light Salmon */
+    color: #FF4500; /* Orange Red */
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+
+#city {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+#date {
+    margin-bottom: 20px;
+}
+
+#icon {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+#icon img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+}
+
+#temperature {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#conditions {
+    margin-bottom: 20px;
+}
+
+#temp-high-low {
+    font-size: 1em;
+}
